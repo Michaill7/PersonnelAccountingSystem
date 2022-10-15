@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e03428418ce648e29e496f3d5ba25891" Name="Diagram1">
+        <EntityTypeShape EntityType="Personnel_Accounting_SystemModel.Departments" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personnel_Accounting_SystemModel.Employees" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personnel_Accounting_SystemModel.EMPLOYEES_TABLE_LOGS" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personnel_Accounting_SystemModel.Jobs" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personnel_Accounting_SystemModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personnel_Accounting_SystemModel.USERS" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <AssociationConnector ManuallyRouted="false" Association="Personnel_Accounting_SystemModel.FK__Departmen__Manag__30F848ED" />
+        <AssociationConnector Association="Personnel_Accounting_SystemModel.FK__Employees__Depar__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="Personnel_Accounting_SystemModel.FK__Employees__Job_I__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="Personnel_Accounting_SystemModel.FK__USERS__User_ID__35BCFE0A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

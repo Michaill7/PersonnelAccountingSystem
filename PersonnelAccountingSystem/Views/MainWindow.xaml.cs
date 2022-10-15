@@ -24,5 +24,7 @@ namespace PersonnelAccountingSystem
         {
             InitializeComponent();
         }
+
+ 
     }
 }
